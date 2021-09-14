@@ -584,5 +584,12 @@ module.exports = [
                 globalStore.putValue(device, 'interval', interval);
             }
         },
+        {
+        zigbeeModel: ['GL-G-002P'],
+        model: 'GL-G-002P',
+        vendor: 'Gledopto',
+        ota: ota.zigbeeOTA,
+        description: 'Zigbee 24W Garden Lamp RGB+CCT (pro)',
+        extend: gledoptoExtend.light_onoff_brightness_colortemp_color(),
     },
 ];
